@@ -1,16 +1,15 @@
 # Design-Pattern
 
-In acest proiect am utilizat doua design pattern-uri(singletone si abstract factory) si o clasa template.
+In this project I utilised two design patterns (singleton and abstract factory) and a template class.
 
 Singleton
-Am setat constructorul clasei privat pentru a putea crea o singura data in interiorul clasei un obiect.
-Am initializat instance cu 0 pentru a putea utiliza functia get_instance si a prelua obiectul.
+I made the constructor private so that it will create only one objects inside the class.
+I initialised the instance with 0 so that I can use the get_instance function and get the object.
 
 Abstract Factory
-Am creat clasa abstracta Factory pentru a putea implementa "factory uri" pentru animalele salbatice si cele domestice.
-Dupa folosind metoda abstract factory i-am dat unui pointer de tip animal un pointer catre alta clasa.(upcasting)
+I created the abstract class Factory in order to implement "factories" for wild animals and domestic animals.
+I gave an animal type pointer a pointer to another class(upcasting).
 
 Template
-Am implementat o clasa template care are ca variabila privata un vector.
-Clasa contine 3 functii publice(sorrtare crescator,descrescator si afisare).
-Am testat clasa pe un vector de tip string si unul de tip int.
+I implemented o template class which has as attributes a vector.
+The class contains 3 public member functions (sort, sorting in descending order, list).
